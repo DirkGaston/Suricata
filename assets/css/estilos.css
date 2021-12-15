@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar img {
+    width: 132px;
+}
+
+/* Productos */
+
+.list-group-item {
+    font-size: 11px;
+}
+
+.card-link {
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #E83E8C; 
+}
+
+footer img {
+    width: 55px;
+}
+
+/* Media Queries Card Responsive */
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 50px;
+    }
+}
